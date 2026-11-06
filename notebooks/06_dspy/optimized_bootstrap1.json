@@ -1,0 +1,105 @@
+{
+  "generate.predict": {
+    "traces": [],
+    "train": [],
+    "demos": [
+      {
+        "augmented": true,
+        "question": "What is DSPy?",
+        "reasoning": "The question asks for a brief factual explanation of DSPy. DSPy is a Python library that provides a domain-specific language (DSL) for constructing and executing prompt chains with large language models. It abstracts away low-level API details, enabling users to compose complex reasoning workflows and manage context efficiently.",
+        "answer": "DSPy is a Python library that offers a domain‑specific language for building and executing prompt chains with large language models, simplifying the orchestration of complex LLM workflows."
+      },
+      {
+        "augmented": true,
+        "question": "What is Fine-tuning?",
+        "reasoning": "The user asks for a brief factual definition of “Fine‑tuning.” We should provide a concise explanation: Fine‑tuning is the process of continuing training a pre‑trained model on a new dataset to specialize it for a particular task or domain. We then output the required fields in the specified format.",
+        "answer": "Fine‑tuning is the process of taking a pre‑trained model and continuing its training on a domain‑specific dataset so that it adapts to a particular task or style."
+      },
+      {
+        "augmented": true,
+        "question": "What is DSPy?",
+        "reasoning": "The question asks for a brief factual explanation of DSPy. DSPy is a Python library that provides a domain-specific language (DSL) for constructing and executing prompt chains with large language models. It abstracts away low-level API details, enabling users to compose complex reasoning workflows and manage context efficiently.",
+        "answer": "DSPy is a Python library that offers a domain‑specific language for building and executing prompt chains with large language models, simplifying the orchestration of complex LLM workflows."
+      },
+      {
+        "augmented": true,
+        "question": "What is DSPy?",
+        "reasoning": "The question asks for a brief factual explanation of DSPy. DSPy is a Python library that provides a domain-specific language (DSL) for constructing and executing prompt chains with large language models. It abstracts away low-level API details, enabling users to compose complex reasoning workflows and manage context efficiently.",
+        "answer": "DSPy is a Python library that offers a domain‑specific language for building and executing prompt chains with large language models, simplifying the orchestration of complex LLM workflows."
+      },
+      {
+        "question": "What is Fine-tuning?",
+        "answer": "Fine-tuning adapts a pre-trained model to a specific task."
+      },
+      {
+        "question": "What is DSPy?",
+        "answer": "DSPy is a framework for programming language models."
+      },
+      {
+        "question": "What is Vector DB?",
+        "answer": "Vector databases store embeddings for similarity search."
+      },
+      {
+        "question": "What is Attention?",
+        "answer": "Attention mechanisms let models focus on relevant tokens."
+      },
+      {
+        "question": "What is Prompt Engineering?",
+        "answer": "Prompt engineering is the art of writing effective prompts."
+      },
+      {
+        "question": "What is DSPy?",
+        "answer": "DSPy is a framework for programming language models."
+      },
+      {
+        "question": "What is Fine-tuning?",
+        "answer": "Fine-tuning adapts a pre-trained model to a specific task."
+      },
+      {
+        "question": "What is RAG?",
+        "answer": "Retrieval-Augmented Generation combines search with LLMs."
+      },
+      {
+        "question": "What is Chain-of-Thought?",
+        "answer": "CoT prompting asks the model to show its reasoning."
+      },
+      {
+        "question": "What is Vector DB?",
+        "answer": "Vector databases store embeddings for similarity search."
+      },
+      {
+        "question": "What is Vector DB?",
+        "answer": "Vector databases store embeddings for similarity search."
+      },
+      {
+        "question": "What is Transformers?",
+        "answer": "Transformers are neural networks based on self-attention."
+      }
+    ],
+    "signature": {
+      "instructions": "Answer questions with short factual responses.",
+      "fields": [
+        {
+          "prefix": "Question:",
+          "description": "${question}"
+        },
+        {
+          "prefix": "Reasoning:",
+          "description": "${reasoning}"
+        },
+        {
+          "prefix": "Answer:",
+          "description": "${answer}"
+        }
+      ]
+    },
+    "lm": null
+  },
+  "metadata": {
+    "dependency_versions": {
+      "python": "3.12",
+      "dspy": "3.3.1",
+      "cloudpickle": "3.1"
+    }
+  }
+}
